@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:id="@+id/fav_layout"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundfragment"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/send_sms"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:background="#e6a422"
+        android:text="GÖNDER" />
+
+    <EditText
+        android:id="@+id/edt_tel_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="100dp"
+        android:ems="10"
+        android:hint="Telefon Numarası"
+        android:inputType="phone"
+        android:textColor="#e6a422"
+        android:textColorHint="@android:color/white"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edt_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="200dp"
+        android:hint="Mesaj"
+        android:textColor="#e6a422"
+        android:textColorHint="@android:color/white"
+        android:textStyle="bold" />
+
+</RelativeLayout>
